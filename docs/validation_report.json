@@ -1,0 +1,18 @@
+{
+  "date_utc": "2026-10-10",
+  "release_status": "validated content snapshot; publication tracked separately in delivery report",
+  "python_environment": "isolated Python 3.11 venv using installed dependencies; NumPy 1.26.4, Torch 2.5.1",
+  "syntax_checked_python_files": 39,
+  "synthetic_smoke": "PASS",
+  "security_scan_findings": [],
+  "security_scan_scope": [
+    "original personal/server filesystem paths",
+    "common GitHub/AWS credential patterns",
+    "private key headers",
+    "prohibited clinical/benchmark/model/log archive file extensions"
+  ],
+  "manual_data_review": "aggregate filenames/content reviewed; no item-level clinical/benchmark arrays, identifiers, raw questions or model weights in release",
+  "full_experiments": "not rerun; no model downloads, inference or training",
+  "unit_test_status": "existing test_original_rsp* unit-test import blocked by missing PEFT; pure scientific functions checked through AST-extracted exact source",
+  "license_status": "no blanket license assigned; dataset/model terms remain separate"
+}

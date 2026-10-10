@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the GenAI4Health 2026 paper when using this research code."
+type: software
+title: "An Empirical Study of Development-Tuned Representation Sensitivity for Medical QA Data Selection"
+authors:
+  - family-names: Wu
+    given-names: Yuexin
+  - family-names: Yu
+    given-names: Dayou
+  - family-names: Rus
+    given-names: Vasile

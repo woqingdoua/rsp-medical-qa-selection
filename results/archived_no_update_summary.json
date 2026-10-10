@@ -1,0 +1,94 @@
+{
+  "description": "Recovered existing no-adapter/no-training MedGemma evaluation; no new inference performed for this revision",
+  "run_date": "2026-09-20",
+  "model_repository": "google/medgemma-4b-it",
+  "adapter_path": null,
+  "trainable": false,
+  "initialization": "raw_backbone_without_training_or_adapter",
+  "number_of_evaluations": 1,
+  "training_seed_sd": null,
+  "datasets": [
+    {
+      "dataset": "afrimedqa",
+      "n_test": 892,
+      "accuracy": 0.4327354260089686,
+      "macro_f1": 0.3813434945747991
+    },
+    {
+      "dataset": "medexpqa",
+      "n_test": 121,
+      "accuracy": 0.4049586776859504,
+      "macro_f1": 0.3712447227321369
+    },
+    {
+      "dataset": "medexqa",
+      "n_test": 200,
+      "accuracy": 0.36,
+      "macro_f1": 0.35081672939658776
+    },
+    {
+      "dataset": "pubmedqa",
+      "n_test": 200,
+      "accuracy": 0.575,
+      "macro_f1": 0.317470100520948
+    },
+    {
+      "dataset": "medmcqa",
+      "n_test": 4096,
+      "accuracy": 0.3486328125,
+      "macro_f1": 0.2913592866449612
+    }
+  ],
+  "equal_dataset_weight_means": {
+    "accuracy": 0.4242653832389838,
+    "macro_f1": 0.3424468667738866
+  },
+  "rsp_minus_raw_percentage_points": {
+    "accuracy": 11.01061851781292,
+    "macro_f1": 13.969994189915996
+  },
+  "source_test_counts_before_filter": [
+    892,
+    125,
+    200,
+    200,
+    4096
+  ],
+  "medexpqa_excluded_original_zero_based_rows": [
+    4,
+    25,
+    41,
+    84
+  ],
+  "protocol": {
+    "maximum_length": 1024,
+    "batch_size": 4,
+    "seed": 13,
+    "padding": "left",
+    "chat_template": false,
+    "add_special_tokens": false,
+    "evaluation_context": "question and options only; no auxiliary text",
+    "truncation": "first and last halves when overlength",
+    "answer_scoring": "final-position next-token softmax over legal single-token leading-space option letters"
+  },
+  "verified_alignment": [
+    "Raw ordered UIDs match eligible source records and hashes",
+    "Filtered gold order agrees with all three retained RSP branches, seeds 13/23/37, on all five datasets",
+    "Five source-test hashes and five evaluator-helper hashes checked during the artifact audit",
+    "Five result.json and predictions.npz files are complete; preserved completion-audit hashes verified"
+  ],
+  "limitations": [
+    "Both original and raw code name the repository without a pinned revision",
+    "Surviving snapshot candidate contains configuration/tokenizer but not historical weights; historical weight equivalence is not proved",
+    "Older adapted prediction files lack UID arrays; gold-order alignment does not independently prove historical question/options identity",
+    "One fixed raw evaluation, not a three-seed training distribution",
+    "Descriptive comparison only; no new paired interval or inference computed"
+  ],
+  "audit_digests": {
+    "protocol_sha256": "450b464e189f0b60d8daf71ddbb01d8663b162fe2e2ad4a350e5e68f8888e1b9",
+    "manifest_sha256": "6d93b930395f4ce871af3d5dc6b7a974a51b35f4059275c76dfb7e5b9b162870",
+    "summary_csv_sha256": "8904d9daf6c0a4ccc830fd1975b83c481a7fadf622796dd946ade9ed0115a4a3",
+    "completion_audit_sha256": "82a8e98cc66cfc9f54f67dd74dbe3c2b2af371a840a122b16279db1393021e7c"
+  },
+  "audit_source": "Authorized remote read-only inspection; safe aggregate metrics and checks relayed by parent on 2026-10-10. Raw records remain on the server."
+}

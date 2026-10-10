@@ -1,0 +1,241 @@
+[
+  {
+    "path": "original_rsp_raw_utils.py",
+    "source_sha256": "0338a955f9277ca6460bed0a63beec85b296d10facfd034650840bb0938be973",
+    "release_sha256": "0338a955f9277ca6460bed0a63beec85b296d10facfd034650840bb0938be973",
+    "change": "unchanged"
+  },
+  {
+    "path": "train_original_rsp_raw.py",
+    "source_sha256": "4932e49382d32529fb8a7a4c5e9c2400ca0b8fda4c2ce8cafbb2e03a5f904143",
+    "release_sha256": "dd68d565dcd075f81c356816dab4d5d91e81902d48304e2a9b599df500b0bd73",
+    "change": "documentation/packaging correction; scientific method unchanged"
+  },
+  {
+    "path": "rationale_baselines.py",
+    "source_sha256": "9d7ff182d1542e53b4f095b27f5dc6bdcf15c44e07261e5fabe19b881db737d7",
+    "release_sha256": "f79e5dcf89a262b10aac6d091b6a2b1544e4d721ecb21daf26b9b0878c54e2d1",
+    "change": "filesystem defaults only"
+  },
+  {
+    "path": "score_latest_static_baselines.py",
+    "source_sha256": "4ec7aba17c4cf53a1dbb0bb99811d81afbf7de12f6f99bb602b5f072ab8e0e28",
+    "release_sha256": "f3cae660a7aa3b01a604c7dffd3eec51c13e7945e0a4cd4bbdc4cb6434709b0a",
+    "change": "filesystem defaults only"
+  },
+  {
+    "path": "train_latest_temp_direction.py",
+    "source_sha256": "e90ce165f46030a8abdeb13bb48cb7c037ea87cdd802a0ff425349287c8aebae",
+    "release_sha256": "5241dd7b771ff376c4b3c147419fecf617b189edc937c594fc7cee2664e921e0",
+    "change": "filesystem defaults only"
+  },
+  {
+    "path": "aggregate_latest_baselines.py",
+    "source_sha256": "671c8d289315b86e1d074a93d41c148972ad51354b3221c0c7dab56128ec3fda",
+    "release_sha256": "671c8d289315b86e1d074a93d41c148972ad51354b3221c0c7dab56128ec3fda",
+    "change": "unchanged"
+  },
+  {
+    "path": "aggregate_original_rsp_raw_tuned.py",
+    "source_sha256": "8b7d9b4b390cd4e34adaf4ea9d43f522f63d512e6807d2a4670050b03cb64099",
+    "release_sha256": "8b7d9b4b390cd4e34adaf4ea9d43f522f63d512e6807d2a4670050b03cb64099",
+    "change": "unchanged"
+  },
+  {
+    "path": "prepare_data.py",
+    "source_sha256": "2b0a1c9e85d6f8e11c9082aa66bbfb51f691c58d4c4853734e509a03866a6c67",
+    "release_sha256": "9f620aa1d673744238221028b341ec558005bb315fffb9cc1c90a1a4a3a26474",
+    "change": "filesystem defaults only"
+  },
+  {
+    "path": "make_original_rsp_expanded_dev_lambda_manifest.py",
+    "source_sha256": "c3ff0c9096b1cc015c359f5cbe276368a6f2ac56521de65becf9f32a8afed372",
+    "release_sha256": "c3ff0c9096b1cc015c359f5cbe276368a6f2ac56521de65becf9f32a8afed372",
+    "change": "unchanged"
+  },
+  {
+    "path": "evaluate_original_rsp_raw.py",
+    "source_sha256": "7500e8eee0deb9ada432130e11191c30eaa657bc3a9dbd5cb173bf51a0a65252",
+    "release_sha256": "a706566d1f7c28feac5ec4c4dacbef6f7a4ca604792675ce45b14e168f0748ef",
+    "change": "filesystem defaults only"
+  },
+  {
+    "path": "select_original_rsp_expanded_dev_lambda.py",
+    "source_sha256": "bc5ba5e27b0be851623f664b7032115c94fc416eeba30524513a259967581c00",
+    "release_sha256": "bc5ba5e27b0be851623f664b7032115c94fc416eeba30524513a259967581c00",
+    "change": "unchanged"
+  },
+  {
+    "path": "make_entropy_prefiltered_random_manifest.py",
+    "source_sha256": "fbb88eaede4894519fac49b272bd560e294aa874d4ae0422a697c3abe5359293",
+    "release_sha256": "fbb88eaede4894519fac49b272bd560e294aa874d4ae0422a697c3abe5359293",
+    "change": "unchanged"
+  },
+  {
+    "path": "test_original_rsp_raw.py",
+    "source_sha256": "c18dd4e6501217f4060d88a84d8f9c7089598c937babc58b56667e86b3f46503",
+    "release_sha256": "c18dd4e6501217f4060d88a84d8f9c7089598c937babc58b56667e86b3f46503",
+    "change": "unchanged"
+  },
+  {
+    "path": "make_original_rsp_raw_manifest.py",
+    "source_sha256": "5f23c3c39b983e22d582b352697a9d0dda8974180bd206df31806fec65a06b3a",
+    "release_sha256": "5f23c3c39b983e22d582b352697a9d0dda8974180bd206df31806fec65a06b3a",
+    "change": "unchanged"
+  },
+  {
+    "path": "make_original_rsp_raw_tuned_manifest.py",
+    "source_sha256": "cb0d37389890f0257fa736ece44f959a649febadc10479e009445141ce70f6c2",
+    "release_sha256": "62fa08bd3181080713d5f0077bea2ee0fc109e78c17154d43827dfb4b631ab77",
+    "change": "documentation/packaging correction; scientific method unchanged"
+  },
+  {
+    "path": "score_latest_temp.py",
+    "source_sha256": "6481505ba057e24e8b6a71689ebc1863b6b6d5428b26029ac806fa91e37468c1",
+    "release_sha256": "242642ae16dff343585ed54877cc02688fb5658f571d107e99a80b9d82758cf9",
+    "change": "filesystem defaults only"
+  },
+  {
+    "path": "aggregate_entropy_prefiltered_random.py",
+    "source_sha256": "0705f4e46db4be346aa3b87f78cb1a328d94e2829282fd134f8d86581a876880",
+    "release_sha256": "0705f4e46db4be346aa3b87f78cb1a328d94e2829282fd134f8d86581a876880",
+    "change": "unchanged"
+  },
+  {
+    "path": "make_original_rsp_five_baseline_manifest.py",
+    "source_sha256": "bddedf611c977015fc5306343c7438c0aea616fd93cce2b56c732e587ca6e681",
+    "release_sha256": "bddedf611c977015fc5306343c7438c0aea616fd93cce2b56c732e587ca6e681",
+    "change": "unchanged"
+  },
+  {
+    "path": "score_latest_nait.py",
+    "source_sha256": "53306845cb12acb0305ca040a5d04008280d18a8bc213315cb1731c2ba1f393d",
+    "release_sha256": "ca91d44d58be55ed2af0330ef8399c3e0e3c6d87f83c210fc431920f9620a6c2",
+    "change": "filesystem defaults only"
+  },
+  {
+    "path": "select_original_rsp_lambda.py",
+    "source_sha256": "e592c81953b6e79a8aa21ce0282c609c05dc58072568a07a4825677280b3c54e",
+    "release_sha256": "e592c81953b6e79a8aa21ce0282c609c05dc58072568a07a4825677280b3c54e",
+    "change": "unchanged"
+  },
+  {
+    "path": "prepare_additional_medical.py",
+    "source_sha256": "f650c0d1ca5262454fede5b3bc177380732d0bd75892a1d2e41ac60d1434472b",
+    "release_sha256": "f31df1751301d3e49cc185287a932a9e50e6d93c596efc8907a56c3214de118c",
+    "change": "filesystem defaults only"
+  },
+  {
+    "path": "common.py",
+    "source_sha256": "3f9ff788c001b148d35ad0dde3ec4629a17663c30336b3e91420e70cf5605841",
+    "release_sha256": "3f9ff788c001b148d35ad0dde3ec4629a17663c30336b3e91420e70cf5605841",
+    "change": "unchanged"
+  },
+  {
+    "path": "evaluate_original_rsp_selected.py",
+    "source_sha256": "d5dd01d1e7f122c59366575810ca06253927b63ba1454c91d85d7f8f7ff4c8b5",
+    "release_sha256": "d11369ce8ce6895bf24485a8245a86b319bdf4581e142ce9b8184662aea3ca86",
+    "change": "release packaging/documentation correction; scientific method unchanged"
+  },
+  {
+    "path": "score_original_rsp_raw.py",
+    "source_sha256": "427f8ad7a9b37f73648b55105c2299dfd685a974c3c3251845d1eafb4353ed9f",
+    "release_sha256": "952b1f655a373ac940af4712498b1680c8526d6a74d45e59d462c513fc21fdf7",
+    "change": "filesystem defaults only"
+  },
+  {
+    "path": "test_original_rsp_extra_baselines.py",
+    "source_sha256": "bbfadf9c718a1104f76b54b11109eeb95dc4fd8626f54688b07931a43e15c4dd",
+    "release_sha256": "bbfadf9c718a1104f76b54b11109eeb95dc4fd8626f54688b07931a43e15c4dd",
+    "change": "unchanged"
+  },
+  {
+    "path": "aggregate_original_rsp_five_baselines.py",
+    "source_sha256": "d3ea822f76b7b5e2787e925ff138e1907954b64b6c8133c0ff856362f1172772",
+    "release_sha256": "d3ea822f76b7b5e2787e925ff138e1907954b64b6c8133c0ff856362f1172772",
+    "change": "unchanged"
+  },
+  {
+    "path": "test_original_rsp_raw_tuned.py",
+    "source_sha256": "efcb7ca861712352f4f8dcd5f4abff4aeaf99569712a5d72e9a6af3ae0ec6b9f",
+    "release_sha256": "efcb7ca861712352f4f8dcd5f4abff4aeaf99569712a5d72e9a6af3ae0ec6b9f",
+    "change": "unchanged"
+  },
+  {
+    "path": "make_latest_baseline_manifest.py",
+    "source_sha256": "6ac351ee2e0c65bbbe8193f0a3c73f2e7b49f131135cdaf355e0f4a0e507bbd6",
+    "release_sha256": "6ac351ee2e0c65bbbe8193f0a3c73f2e7b49f131135cdaf355e0f4a0e507bbd6",
+    "change": "unchanged"
+  },
+  {
+    "path": "make_raw_checkpoint_no_update_manifest.py",
+    "source_sha256": "4ca3586d3f1d666f850f25e0f1a11957b87b7795d759b309c6ec3b5f1bd0c51a",
+    "release_sha256": "4ca3586d3f1d666f850f25e0f1a11957b87b7795d759b309c6ec3b5f1bd0c51a",
+    "change": "unchanged"
+  },
+  {
+    "path": "score_original_rsp_extra_baselines.py",
+    "source_sha256": "c4fe9e92aa70e9ca55e9ad7eef9925c1e1a30214fc9b65efc81a74ae3e9faef4",
+    "release_sha256": "71509e62270eac2e51f2e4b3b64754b127c49350817d6f0a76f5bd6f5a498039",
+    "change": "filesystem defaults only"
+  },
+  {
+    "path": "aggregate_raw_checkpoint_no_update.py",
+    "source_sha256": "b6fd430f6b8f5352d1dd49b0400e0f5e34128db6c06bcaa1fbb91922c2fecc96",
+    "release_sha256": "b6fd430f6b8f5352d1dd49b0400e0f5e34128db6c06bcaa1fbb91922c2fecc96",
+    "change": "unchanged"
+  },
+  {
+    "path": "aggregate_original_rsp_expanded_dev_lambda.py",
+    "source_sha256": "71318e968a8491ea7ce5c22930b22e85eac54aaa699d4689294259cf0440c1c5",
+    "release_sha256": "71318e968a8491ea7ce5c22930b22e85eac54aaa699d4689294259cf0440c1c5",
+    "change": "unchanged"
+  },
+  {
+    "path": "test_latest_baselines.py",
+    "source_sha256": "e1e1c3b9b0cb4fcba19b6474627dea2055739f33682f0a28b5b2d4da7ca9e5c6",
+    "release_sha256": "e1e1c3b9b0cb4fcba19b6474627dea2055739f33682f0a28b5b2d4da7ca9e5c6",
+    "change": "unchanged"
+  },
+  {
+    "path": "prepare_original_rsp_raw_data.py",
+    "source_sha256": "4cbeb8c9c7141fca3d7399eca1b846b20c8d9833137401738966ed557c22a689",
+    "release_sha256": "37cb3b3f95440e646f62c19a28bb8e4798d40a6f107ba5ee0978b3d1fe23d191",
+    "change": "filesystem defaults only"
+  },
+  {
+    "path": "derive_original_rsp_lambda_scores.py",
+    "source_sha256": "1edb8b6d54b84fe3e67b1442ccf76e8444f48aec26fbd2dcf0d5cf6204c407e3",
+    "release_sha256": "1edb8b6d54b84fe3e67b1442ccf76e8444f48aec26fbd2dcf0d5cf6204c407e3",
+    "change": "unchanged"
+  },
+  {
+    "path": "evaluate_raw_checkpoint_no_update.py",
+    "source_sha256": "689c0be17b00dc0a1444e12c2eb56e6bcdbbe474b884e66bc3ef9c7c9263aea1",
+    "release_sha256": "bb42f9c8f6fa395b2e783fcf15837ee875cce8dad5e027a6a151563a66192249",
+    "change": "filesystem defaults only"
+  },
+  {
+    "path": "requirements.txt",
+    "release_sha256": "7508d7c82639b57b923aee6592e6563d7feab2af060f67c587f3df5d29a40544",
+    "source_sha256": "7508d7c82639b57b923aee6592e6563d7feab2af060f67c587f3df5d29a40544",
+    "change": "author-created code/config or exact compatibility patch; see integration attribution"
+  },
+  {
+    "path": "tests/synthetic_smoke.py",
+    "release_sha256": "84de8b3d5d6e31ef7d7ee8e1db068f581eda0cdef47f883e3fed6f96b1c13638",
+    "change": "release-only synthetic test; executes shipped scientific functions"
+  },
+  {
+    "path": "analysis/recompute_existing_artifacts.py",
+    "source_sha256": "90f91bb313fa290ea3003229eab8d859c2188a52fd2c45e17f09f418508b4fa8",
+    "release_sha256": "90f91bb313fa290ea3003229eab8d859c2188a52fd2c45e17f09f418508b4fa8",
+    "change": "unchanged camera-ready analysis code"
+  },
+  {
+    "path": "analysis/recompute_submission_sensitivities.py",
+    "source_sha256": "b072c2405cb57feaed04fb981067e8381fb099adacccac397b92cb1ece2b15e0",
+    "release_sha256": "b072c2405cb57feaed04fb981067e8381fb099adacccac397b92cb1ece2b15e0",
+    "change": "unchanged camera-ready analysis code"
+  }
+]

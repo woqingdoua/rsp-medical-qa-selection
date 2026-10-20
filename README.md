@@ -1,6 +1,6 @@
 # RSP: development-tuned representation sensitivity for medical QA selection
 
-Research code for **An Empirical Study of Development-Tuned Representation Sensitivity for Medical QA Data Selection**, Yuexin Wu, Dayou Yu, and Vasile Rus, GenAI4Health 2026 (paper 97).
+Research code for **An Empirical Study of Development-Tuned Representation Sensitivity for Medical QA Data Selection**, Yuexin Wu, Dayou Yu, and Vasile Rus, GenAI4Health 2026.
 
 Representation-Sensitivity Prioritization first restricts an existing labeled bank to its top `min(4B,N)` predictive-entropy examples. It reranks that pool using answer-flip frequency and non-flipping contraction of the top-two answer margin under final-block hidden-state perturbations. Candidate scoring reads questions/options without pool labels or auxiliary text; labeled development outcomes tune the scale coefficient. The final retained examples include auxiliary text as context, while only final answer tokens are supervised.
 
